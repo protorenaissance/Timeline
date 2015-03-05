@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'wall/write'=>'wall#write'
-
+  get 'wall/delete/:id'=>'wall#delete'
   post 'wall/write_complete'=>'wall#write_complete'
   post 'wall/edit_complete'
   get 'wall/posts'=>'wall#posts'
