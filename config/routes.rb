@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'wall/posts'=>'wall#posts'
   get 'wall/edit/:id'=>'wall#edit'
 	post 'wall/delete_complete'=>'wall#delete_complete'
+	get 'wall/write_comment/:id'=>'wall#write_comment'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
