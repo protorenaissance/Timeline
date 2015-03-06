@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 	post 'wall/delete_complete'=>'wall#delete_complete'
 	get 'wall/write_comment/:id'=>'wall#write_comment'
 	get 'wall/write_comment_complete'
+	get 'user/login'
+	post 'user/login_complete'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
