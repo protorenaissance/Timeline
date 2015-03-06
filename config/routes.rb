@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'user/signup'
+  post 'user/signup_complete'
   get 'wall/write'=>'wall#write'
   get 'wall/delete/:id'=>'wall#delete'
   post 'wall/write_complete'=>'wall#write_complete'
