@@ -27,7 +27,7 @@ class UserController < ApplicationController
 			flash[:alert]="Incorrect username or password."
 			redirect_to:back
 		else
-			if u.passsword!=params[:password]
+			if u.password!=params[:password]
 				flash[:alert]="Incorrect username or password."
 				redirect_to:back
 			else
