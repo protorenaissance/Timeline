@@ -12,6 +12,7 @@ Rails.application.routes.draw do
 	get 'wall/write_comment_complete'
 	get 'user/login'
 	post 'user/login_complete'
+	get 'user/logout'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
